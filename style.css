@@ -1,0 +1,65 @@
+/* Style Settings */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+:root {
+    --bgColor:#FFDFDC;
+    --accentColor: #2B2929;
+    --complementColor: #FFFFFF;
+    --font: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: var(--bgColor);
+    background-image: url("abstract.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+#userPhoto{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0px auto 0px;
+    padding: 0px;
+    border: 1px;
+}
+
+#userName{
+    color: var(--accentColor);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;;
+}
+
+#links{
+    max-width: 500px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+.link{
+    display: block;
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all .25s cubic-bezier(.08,.59,.29,.99);
+    border-color: var(--complementColor);
+    border: 1px;
+    border-radius: 30px;
+}
+
+.link:hover{
+    background-color: var(--bgColor);
+    color: var(--accentColor);
+}
